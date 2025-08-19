@@ -1,0 +1,121 @@
+# ==============================================================================
+# Sapphire Framework - .gitignore
+# ==============================================================================
+
+# === OS Specific file/folders ===
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+
+# === Editor / IDE file/folders ===
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime*
+*.code-workspace
+
+# === Build Tools & Generated Files/Folders ===
+# ------------------------------------------------------------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+build-*/
+out/
+output/
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+# === VS/Windows specific file/folders === 
+# ------------------------------------------------------------------------------
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.aps
+*.pdb
+*.ipch
+*.obj
+*.dll
+*.lib
+*.exp
+*.idb
+
+# === macOS/Xcode specific file/folders === 
+# ------------------------------------------------------------------------------
+*.xcodeproj
+*.xcworkspace
+*.xcuser*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# === Linux-specific file/folders === 
+# ------------------------------------------------------------------------------
+*.o
+*.so
+*.a
+
+# === Compiler / Debug Artifacts ===
+# ------------------------------------------------------------------------------
+*.log
+*.bak
+*.tmp
+*.swp
+*.d
+*.dbg
+*.tlog
+*.lastbuildstate
+
+# === Tests / Temporary file/folders ===
+# ------------------------------------------------------------------------------
+*.test.*
+*.unit.*
+*.coverage
+*.gcno
+*.gcda
+
+# === Generated Files/Folders ===
+# ------------------------------------------------------------------------------
+/*.generated.*
+/generated/
+gen/
+auto/
+backup/
+
+# === Cache files/folders ===
+# ------------------------------------------------------------------------------
+.cache/
+.ccls-cache/
+.clangd/
+compile_commands.json
+
+# === Ignore user config ===
+# ------------------------------------------------------------------------------
+*.user.*
+*.launch
+*.settings
+
+# === Packaging / Dist output file/folders ===
+# ------------------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.tgz
+
+# === Node/Python (in case of tooling) ===
+# ------------------------------------------------------------------------------
+node_modules/
+*.pyc
+__pycache__/
+
+# ==============================================================================
+# End of Sapphire .gitignore
+# ==============================================================================
